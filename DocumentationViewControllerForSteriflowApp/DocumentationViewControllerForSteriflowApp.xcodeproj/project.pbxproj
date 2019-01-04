@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F86B2EC21DF252800379B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B2EB21DF252800379B5A /* AppDelegate.swift */; };
+		8F86B2EE21DF252800379B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B2ED21DF252800379B5A /* ViewController.swift */; };
+		8F86B2F121DF252900379B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F86B2EF21DF252900379B5A /* Main.storyboard */; };
+		8F86B2F321DF257500379B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F86B2F221DF257500379B5A /* Assets.xcassets */; };
+		8F86B2F621DF257800379B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F86B2F421DF257800379B5A /* LaunchScreen.storyboard */; };
+		8F86B30121DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B30021DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.swift */; };
+		8F86B30C21DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B30B21DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.swift */; };
+		8F86B31B21DF266500379B5A /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86B31A21DF266500379B5A /* Documentation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F86B2FD21DF258800379B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F86B2E021DF252600379B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F86B2E721DF252700379B5A;
+			remoteInfo = DocumentationViewControllerForSteriflowApp;
+		};
+		8F86B30821DF258900379B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F86B2E021DF252600379B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F86B2E721DF252700379B5A;
+			remoteInfo = DocumentationViewControllerForSteriflowApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F86B2E821DF252800379B5A /* DocumentationViewControllerForSteriflowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentationViewControllerForSteriflowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F86B2EB21DF252800379B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F86B2ED21DF252800379B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F86B2F021DF252900379B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F86B2F221DF257500379B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F86B2F521DF257800379B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F86B2F721DF257A00379B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F86B2FC21DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentationViewControllerForSteriflowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F86B30021DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationViewControllerForSteriflowAppTests.swift; sourceTree = "<group>"; };
+		8F86B30221DF258900379B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F86B30721DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentationViewControllerForSteriflowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F86B30B21DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationViewControllerForSteriflowAppUITests.swift; sourceTree = "<group>"; };
+		8F86B30D21DF258900379B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F86B31A21DF266500379B5A /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F86B2E521DF252700379B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F86B2F921DF258800379B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F86B30421DF258900379B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F86B2DF21DF252600379B5A = {
+			isa = PBXGroup;
+			children = (
+				8F86B2EA21DF252800379B5A /* DocumentationViewControllerForSteriflowApp */,
+				8F86B2FF21DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests */,
+				8F86B30A21DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests */,
+				8F86B2E921DF252800379B5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F86B2E921DF252800379B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F86B2E821DF252800379B5A /* DocumentationViewControllerForSteriflowApp.app */,
+				8F86B2FC21DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.xctest */,
+				8F86B30721DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F86B2EA21DF252800379B5A /* DocumentationViewControllerForSteriflowApp */ = {
+			isa = PBXGroup;
+			children = (
+				8F86B2EB21DF252800379B5A /* AppDelegate.swift */,
+				8F86B2ED21DF252800379B5A /* ViewController.swift */,
+				8F86B31921DF261400379B5A /* Models */,
+				8F86B2EF21DF252900379B5A /* Main.storyboard */,
+				8F86B2F221DF257500379B5A /* Assets.xcassets */,
+				8F86B2F421DF257800379B5A /* LaunchScreen.storyboard */,
+				8F86B2F721DF257A00379B5A /* Info.plist */,
+			);
+			path = DocumentationViewControllerForSteriflowApp;
+			sourceTree = "<group>";
+		};
+		8F86B2FF21DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F86B30021DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.swift */,
+				8F86B30221DF258900379B5A /* Info.plist */,
+			);
+			path = DocumentationViewControllerForSteriflowAppTests;
+			sourceTree = "<group>";
+		};
+		8F86B30A21DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F86B30B21DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.swift */,
+				8F86B30D21DF258900379B5A /* Info.plist */,
+			);
+			path = DocumentationViewControllerForSteriflowAppUITests;
+			sourceTree = "<group>";
+		};
+		8F86B31921DF261400379B5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F86B31A21DF266500379B5A /* Documentation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F86B2E721DF252700379B5A /* DocumentationViewControllerForSteriflowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F86B31021DF258900379B5A /* Build configuration list for PBXNativeTarget "DocumentationViewControllerForSteriflowApp" */;
+			buildPhases = (
+				8F86B2E421DF252700379B5A /* Sources */,
+				8F86B2E521DF252700379B5A /* Frameworks */,
+				8F86B2E621DF252700379B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocumentationViewControllerForSteriflowApp;
+			productName = DocumentationViewControllerForSteriflowApp;
+			productReference = 8F86B2E821DF252800379B5A /* DocumentationViewControllerForSteriflowApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F86B2FB21DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F86B31321DF258900379B5A /* Build configuration list for PBXNativeTarget "DocumentationViewControllerForSteriflowAppTests" */;
+			buildPhases = (
+				8F86B2F821DF258800379B5A /* Sources */,
+				8F86B2F921DF258800379B5A /* Frameworks */,
+				8F86B2FA21DF258800379B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F86B2FE21DF258800379B5A /* PBXTargetDependency */,
+			);
+			name = DocumentationViewControllerForSteriflowAppTests;
+			productName = DocumentationViewControllerForSteriflowAppTests;
+			productReference = 8F86B2FC21DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F86B30621DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F86B31621DF258900379B5A /* Build configuration list for PBXNativeTarget "DocumentationViewControllerForSteriflowAppUITests" */;
+			buildPhases = (
+				8F86B30321DF258900379B5A /* Sources */,
+				8F86B30421DF258900379B5A /* Frameworks */,
+				8F86B30521DF258900379B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F86B30921DF258900379B5A /* PBXTargetDependency */,
+			);
+			name = DocumentationViewControllerForSteriflowAppUITests;
+			productName = DocumentationViewControllerForSteriflowAppUITests;
+			productReference = 8F86B30721DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F86B2E021DF252600379B5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Carlos Santiago Cruz";
+				TargetAttributes = {
+					8F86B2E721DF252700379B5A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8F86B2FB21DF258800379B5A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F86B2E721DF252700379B5A;
+					};
+					8F86B30621DF258900379B5A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8F86B2E721DF252700379B5A;
+					};
+				};
+			};
+			buildConfigurationList = 8F86B2E321DF252600379B5A /* Build configuration list for PBXProject "DocumentationViewControllerForSteriflowApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F86B2DF21DF252600379B5A;
+			productRefGroup = 8F86B2E921DF252800379B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F86B2E721DF252700379B5A /* DocumentationViewControllerForSteriflowApp */,
+				8F86B2FB21DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests */,
+				8F86B30621DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F86B2E621DF252700379B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F86B2F621DF257800379B5A /* LaunchScreen.storyboard in Resources */,
+				8F86B2F321DF257500379B5A /* Assets.xcassets in Resources */,
+				8F86B2F121DF252900379B5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F86B2FA21DF258800379B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F86B30521DF258900379B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F86B2E421DF252700379B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F86B2EE21DF252800379B5A /* ViewController.swift in Sources */,
+				8F86B2EC21DF252800379B5A /* AppDelegate.swift in Sources */,
+				8F86B31B21DF266500379B5A /* Documentation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F86B2F821DF258800379B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F86B30121DF258800379B5A /* DocumentationViewControllerForSteriflowAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F86B30321DF258900379B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F86B30C21DF258900379B5A /* DocumentationViewControllerForSteriflowAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F86B2FE21DF258800379B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F86B2E721DF252700379B5A /* DocumentationViewControllerForSteriflowApp */;
+			targetProxy = 8F86B2FD21DF258800379B5A /* PBXContainerItemProxy */;
+		};
+		8F86B30921DF258900379B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F86B2E721DF252700379B5A /* DocumentationViewControllerForSteriflowApp */;
+			targetProxy = 8F86B30821DF258900379B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F86B2EF21DF252900379B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F86B2F021DF252900379B5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F86B2F421DF257800379B5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F86B2F521DF257800379B5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F86B30E21DF258900379B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F86B30F21DF258900379B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F86B31121DF258900379B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = DocumentationViewControllerForSteriflowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.DocumentationViewControllerForSteriflowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F86B31221DF258900379B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = DocumentationViewControllerForSteriflowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.DocumentationViewControllerForSteriflowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F86B31421DF258900379B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = DocumentationViewControllerForSteriflowAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.DocumentationViewControllerForSteriflowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocumentationViewControllerForSteriflowApp.app/DocumentationViewControllerForSteriflowApp";
+			};
+			name = Debug;
+		};
+		8F86B31521DF258900379B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = DocumentationViewControllerForSteriflowAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.DocumentationViewControllerForSteriflowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocumentationViewControllerForSteriflowApp.app/DocumentationViewControllerForSteriflowApp";
+			};
+			name = Release;
+		};
+		8F86B31721DF258900379B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = DocumentationViewControllerForSteriflowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.DocumentationViewControllerForSteriflowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocumentationViewControllerForSteriflowApp;
+			};
+			name = Debug;
+		};
+		8F86B31821DF258900379B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KLD58K8YP9;
+				INFOPLIST_FILE = DocumentationViewControllerForSteriflowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Santiago.DocumentationViewControllerForSteriflowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocumentationViewControllerForSteriflowApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F86B2E321DF252600379B5A /* Build configuration list for PBXProject "DocumentationViewControllerForSteriflowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F86B30E21DF258900379B5A /* Debug */,
+				8F86B30F21DF258900379B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F86B31021DF258900379B5A /* Build configuration list for PBXNativeTarget "DocumentationViewControllerForSteriflowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F86B31121DF258900379B5A /* Debug */,
+				8F86B31221DF258900379B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F86B31321DF258900379B5A /* Build configuration list for PBXNativeTarget "DocumentationViewControllerForSteriflowAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F86B31421DF258900379B5A /* Debug */,
+				8F86B31521DF258900379B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F86B31621DF258900379B5A /* Build configuration list for PBXNativeTarget "DocumentationViewControllerForSteriflowAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F86B31721DF258900379B5A /* Debug */,
+				8F86B31821DF258900379B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F86B2E021DF252600379B5A /* Project object */;
+}
